@@ -1,0 +1,11 @@
+<div class="box">
+
+
+  <input type="text" placeholder="Enter message" #message>
+  <button type="button" (click)="setMessage(message)">Send message</button>
+
+  <div *ngIf="mensagem">
+    {{mensagem}}
+  </div>
+
+</div>

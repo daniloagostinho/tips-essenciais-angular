@@ -1,1 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+.box {
+  width: 20%;
+  height: 50%;
+  background-color: aliceblue;
+  float: left;
+  margin: 10px;
+}
